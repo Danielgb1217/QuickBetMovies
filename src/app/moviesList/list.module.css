@@ -1,0 +1,50 @@
+/* src/styles/Movies.module.css */
+.container {
+    text-align: center;
+    color: white;
+    overflow-y: hidden;
+    height: auto;
+}
+
+.grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    overflow-y: hidden;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 150px;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+.prevButton,
+.nextButton {
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0070f3;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.prevButton:hover,
+.nextButton:hover {
+    background-color: #005bb5;
+}

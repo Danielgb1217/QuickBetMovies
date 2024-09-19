@@ -1,0 +1,45 @@
+.headerImage {
+    position: relative;
+    width: 100%;
+    height: 436px;
+    overflow: hidden;
+}
+
+.headerImage img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 728px) {
+    .headerImage {
+        height: 200px;
+    }
+
+    .headerImage img {
+        position: relative;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+}
+
+.main {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(67, 67, 67);
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+@media (max-width: 728px) {
+    .main {
+        height: auto;
+        width: 100vw;
+    }
+}
