@@ -16,18 +16,18 @@ Para comenzar a trabajar con este proyecto, sigue estos pasos:
 1. **Clona el repositorio:**
 
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone <https://github.com/Danielgb1217/QuickBetMovies>
 
-2. **Ingresar a la carpeta del proyecto:**
+2. **Ingresar a la carpeta del proyecto**
 
 3. **Instalar dependencias:**
 
-```bash
+   ```bash
 npm install
 
 4. **Ejecutar el proyecto:**
 
-```bash
+   ```bash
 npm run dev
 
 
